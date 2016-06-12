@@ -1,0 +1,14 @@
+{
+  "name": "ocamlResult",
+  "version": "0.0.1",
+  "description": "Compatibility Result module.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "preinstall": "mkdir -p src && cp `ocaml which_result.ml` src/result.ml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansouci/result.git"
+  },
+  "author": "Jane Street Group, LLC <opensource@janestreet.com>"
+}
