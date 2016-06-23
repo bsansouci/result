@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Compatibility Result module.",
   "license": "Apache-2.0",
+  "jengaboot": {
+    "ppxFlag": "ppx-jane -as-ppx -inline-test-lib core -inline-test-drop -bench-drop"
+  },
   "scripts": {
     "preinstall": "mkdir -p src && cp `ocaml which_result.ml` src/result.ml"
   },
